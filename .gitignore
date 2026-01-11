@@ -6,7 +6,6 @@ __pycache__/
 .venv
 venv*/
 venv
-.vscode
 *.ipynb
 env/
 venv/
@@ -61,3 +60,5 @@ obb/*
 *.pkg
 *.exe
 build/conda/tmp
+config.bat
+node_modules

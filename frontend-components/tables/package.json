@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "build_tsc": "tsc && vite build",
     "deploy": "npm run build && mv dist/index.html ../../openbb_platform/obbject_extensions/charting/openbb_charting/core/table.html",
     "preview": "vite preview"

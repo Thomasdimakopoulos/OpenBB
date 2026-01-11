@@ -5,8 +5,8 @@
   "type": "module",
   "license": "AGPL-3.0",
   "scripts": {
-    "dev": "vite --port 1470",
-    "build": "tsc && vite build",
+    "dev": "node init && vite --port 1470",
+    "build": "node init && tsc && vite build",
     "preview": "vite preview",
     "tauri": "tauri",
     "test": "vitest",
