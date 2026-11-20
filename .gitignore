@@ -60,5 +60,4 @@ obb/*
 *.pkg
 *.exe
 build/conda/tmp
-config.bat
 node_modules
